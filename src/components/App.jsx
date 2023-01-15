@@ -1,4 +1,4 @@
-import user from 'user.json';
+import user from 'components/user.json';
 import data from 'components/Statistics/data.json';
 import friends from 'components/Friends/friends.json';
 import transactions from 'components/TransactionHistory/transactions.json';
@@ -12,6 +12,7 @@ export const App = () => {
   return (
     <div
       style={{
+        padding: '90px',
         backgroundColor: 'tomato',
         height: '100%',
         display: 'flex',
