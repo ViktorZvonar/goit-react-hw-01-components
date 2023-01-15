@@ -20,6 +20,10 @@ const FriendList = props => {
 
 export default FriendList;
 
+FriendList.defaultProps = {
+  friends: [],
+};
+
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
